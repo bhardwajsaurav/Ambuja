@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="landing">
+
+
+        <iframe src="https://interactiveviralads.s3.ap-south-1.amazonaws.com/ambuja_cement_landing_page/index.html" frameborder="0" id="iframe"></iframe>
+
+
+        <div class="form">
+            <h1>Ambuja</h1>
+           <form action="" method="get">
+                 <div class="input-field">
+                   <label for="">Enter Name</label>
+                   <input type="text" name="" id="inputName" onfocus="activeINput()" onfocusout="UnActive()">
+                 </div>
+
+
+                 <div class="input-field">
+                    <label for="">Enter Age</label>
+                    <input type="text" name="" id="">
+                  </div>
+
+                  <div class="input-field">
+                    <label for="">Enter Address</label>
+                    <input type="text" name="" id="">
+                  </div>
+
+
+                  <div class="sub-btn">
+                      <button type="button" onclick="modalDown()"> <span><i class='fa fa-leaf'></i>Submit</span></button>
+                  </div>
+               
+           </form>
+        </div>
+
+
+
+        <div class="modal-main" id="modal" onclick="closeModal()">
+            <div class="modal-sub-main" id="submodal">
+                 <h1 class="thank">Thank You </h1>
+                  <h1 class="name" id="nameHolder">saurav bhardwaj</h1>
+
+             </div>
+        </div>
+    </section>
+
+    <script src="index.js">
+         
+    </script>
+</body>
+</html>
